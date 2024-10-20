@@ -7,7 +7,8 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 * <b>Needed Materials</b>: 
 * <b>Learning outcomes</b>:
 
-[Commercial Video]("Media/Video/Webbie_Commercial.mp4")
+[Commercial Video](https://github.com/user-attachments/assets/e4b93e10-c7c9-49d7-b2c3-71a300c8cca2)
+
 ## Team 
 
 ## Advisors
