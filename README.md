@@ -12,6 +12,7 @@
 * Dr. Xin Xu 
 ## Team Photo
 <img src = "Media/Team Photo/webbieGroupP.png" width="400" height="200">
+
 ## Game Description 
 ## Publications 
 ## Outreach Activities
