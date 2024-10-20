@@ -5,7 +5,9 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 * <b>Target Audience</b>: 
 * <b>Duration of Workshop</b>: 
 * <b>Needed Materials</b>: 
-* <b>Learning outcomes</b>: 
+* <b>Learning outcomes</b>:
+
+[Commercial Video]()
 ## Team 
 
 ## Advisors
