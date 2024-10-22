@@ -10,6 +10,9 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 [Commercial Video](https://github.com/user-attachments/assets/e4b93e10-c7c9-49d7-b2c3-71a300c8cca2)
 
 ## Team 
+* Holly Boaz
+* April Factor
+* Thien Trung (Trump) Dong Dong 
 
 ## Advisors
 * Dr. Wei Jin 
@@ -17,9 +20,13 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 ## Team Photo
 <img src = "Media/Team Photo/webbieGroupP.png" width="400" height="200">
 
+(From left to right: April Factor, Holly Boaz, Trump Dong Dong) 
+
 ## Game Description 
 ## Publications 
 ## Outreach Activities
+1. <b>Explore Your Future Career</b> event, October 15th, 2022, Discovery High School - Project Demo 
+
 ## Similar Projects 
 ## Technology
 ## Project Setup/Installation 
