@@ -7,11 +7,7 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 * <b>Needed Materials</b>: 
 * <b>Learning outcomes</b>:
 
-[Commercial Video](https://github.com/user-attachments/assets/47e5c17e-bca3-4b3b-a374-5cf9cb4c14c3)
-
-
-
-
+[Commercial Video](https://github.com/user-attachments/assets/f3876054-5480-45ac-bf06-b36a356564ec)
 
 ## Team 
 * Holly Boaz
