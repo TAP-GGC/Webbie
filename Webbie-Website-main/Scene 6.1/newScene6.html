@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newScene6.css">
+    <script src="newScene6.js"></script>
+    <title></title>
+  </head>
+  <body onload="activateColorPicker()">
+
+    <audio loop style = "display:none;" src="music.mp3" controls></audio>
+    <!-- <img id = "HTMLWebbie" src="HTML Webbie.png" alt=""> -->
+    <!-- <img  ondrop="dropColor(event)" ondragover="allowDrop(event)" id = "CSSWebbie" src="Asset 5.png" alt=""> -->
+    <div id="htmlConsoleTitle">HTML</div>
+    <div id="cssConsoleTitle">CSS</div>
+    <div id = "activityTitle"> The <span id = "bodyDef" style = "color: #afe24f;""> body </span> selector selects the entire webpage. The <span style = "color: #afe24f">background-color</span> CSS property sets the background color of the selected element.</div>
+    <div id="console" ondrop="dropColor(event)" ondragover="allowDrop(event)">
+      <!-- CSS BODY SELECTOR -->
+      <p id = "bodySelector" style = "display:none;"> body {</p>
+      <p id = "bgColorAttritbute" style = "display:none;"> background-color : <span id = "bgColorValue"> color </span>;</p>
+      <p id ="bgImageCode" style = "display:none;">background-image: url('<span id = bgImageURL> </span>'); </p>
+      <p id= "closer" style = "display:none;" >}</p>
+      <div style = "display:none;" id = "titleColorCode">
+      <!--  CSS H1 SELECTOR -->
+      <p> h1 {<p>
+      <p>color: <span id = "titleColorValue" > color </span>;</p>
+      <p>}</p>
+      </div>
+
+      <!--  P SELECTOR -->
+      <div style = "display:none;" id = "paragraphColorCode">
+      <p> p {<p>
+      <p>color: <span id = "paragraphColorValue" > color </span>;</p>
+      <p>}</p>
+      </div>
+
+      <!--  BUTTON  SELECTOR -->
+      <div style = "display:none;" id = "buttonCode">
+      <p> button {<p>
+      <p id = "buttonBgCode" style = "display:none;">background-color: <span id = "buttonBgValue" > color </span>;</p>
+      <p id = "buttonBorderCode" style = "display:none;">border: 5px solid <span id = "buttonBorderValue" > black </span>;</p>
+      <p>}</p>
+      </div>
+
+    </div>
+    <div id="console2">
+      <p style = "display:none;"id = "titleCode">&#60;<span id = "chosenHeader">h1</span>&#62; <span id = "titleValue" > title </span> &#60;/<span id = "chosenHeaderCloser">h1</span>&#62;</p>
+      <br>
+      <p style = "display:none;" id = "paragraphCode">&#60;p&#62; <span id = "paragraphValue" > paragraph </span> &#60;/p&#62;</p>
+      <p style = "display:none;" id = "buttonHTMLCode"> <br>&#60;button&#62; <span id = "buttonValue" > button text </span> &#60;button&#62;</p>
+      <p style = "display:none;" id = "link1Code"> <br>&#60;a href = '<span id = "url1" > </span> '&#62; <span id = "link1Value" > </span> &#60;a&#62;</p>
+      <p style = "display:none;" id = "link2Code"> <br>&#60;a href = '<span id = "url2" > </span>'&#62; <span id = "link2Value" > </span> &#60;a&#62;</p>
+      <p style = "display:none;" id = "link3Code"> <br>&#60;a href = '<span id = "url3" > </span>'&#62; <span id = "link3Value" > </span> &#60;a&#62;</p>
+      <p style = "display:none;" id = "link4Code"> <br>&#60;a href = '<span id = "url4" > </span>'&#62; <span id = "link4Value" > </span> &#60;a&#62;</p>
+    </div>
+    <div id ="website">
+      <div id ="websiteBgImage"></div>
+      <div id= "overlay"></div>
+      <div id = websiteContent>
+        <div id = "nav" style = "visibility:hidden;" class="topnav">
+          <a  target="_blank" id = "websitelink1"class="active" href="#home">Home</a>
+          <a  target="_blank" id = "websitelink2" href="#news">About</a>
+          <a  target="_blank" id = "websitelink3" href="#contact">Contact</a>
+          <a  target="_blank" id = "websitelink4" href="#about">Link 4</a>
+        </div>
+          <h1 style = "display:none;" id = "websiteTitle"> </h1>
+          <h2 style = "display:none;" id = "websiteTitle2"> </h2>
+          <h3 style = "display:none;" id = "websiteTitle3"> </h3>
+          <h4 style = "display:none;" id = "websiteTitle4"></h4>
+          <h5 style = "display:none;" id = "websiteTitle5"> </h5>
+          <h6 style = "display:none;" id = "websiteTitle6"> </h6>
+          <p style = "display:none;" id = "websiteParagraph"> a short paragraph about website </p>
+          <a style = "display:none;" id = "websiteButton" src="www.GGC.EDU" target="_blank">Button</a>
+      </div>
+    </div>
+    <img id = "bottomBorder" src = "bottomBorder.png"/>
+    <div class = "instructionTitle" id = "bg"> Directions: <br> <span style = "color: #AFE24F; ">DRAG and DROP </span>your desired background color to the CORRECT WEBBIE <br> Once you are happy with your website color click submit! </div>
+    <div class = "instructionTitle" id = "title" style = "display: none;"> Directions: <br> <span style = "text-shadow: 2px 2px 5px #AFE24F;"> Type </span> in your desired website title and <span style = "color: #AFE24F; ">PRESS ENTER</span><br>  Once you are happy with your website title click submit! </div>
+    <div class = "instructionTitle" id = "paragraph" style = "display: none;"> Directions: <br> <span style = "color: #AFE24F; ">TYPE </span>in our desired paragraph in the text box <br> Once you are happy with your website color click submit! </div>
+    <div class = "instructionTitle" id = "links" style = "display: none;"> Directions: <br> <span style = "color: #AFE24F; ">COPY AND PASTE </span> 4 links in the  following boxes. When we click these tabs they will direct us to that page </div>
+    <div class = "instructionTitle" id = "backgroundImageInstructions" style = "display: none;"> Directions: <br> <span style = "color: #AFE24F; ">COPY AND PASTE </span> the image address of your desired background image in the box </div>
+
+    <div id = "activitySection">
+      <div id = "bgActivity"class = "backgroundColorActivity">
+        <p> <span style = "color: #AFE24F; "> DRAG and DROP </span> a background color to <span style = "color: #AFE24F; "> CSS </span> </p>
+        <div id = "button1" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button2" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button3" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button4" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button5" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button6" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button7" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button8" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button9" draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <div id = "button10"draggable="true" ondragstart="drag(event)" class="colorButton"> </div>
+        <label for="colorpicker">Pick your own background color: </label>
+        <br>
+        <br>
+        <input id = "ipbg" type="color" id="colorpicker" value="#FFFFFF">
+
+
+    </div>
+    <div style = "display: none;" id = "titleActivity" class="">
+      <p> Step 1: Enter a title AND PRESS ENTER: </p>
+      <br>
+      <input style = "margin-left: -15px;" id = "ip" type="text" placeholder = "i.e My First Website ">
+      <p> Step 2: Choose a heading size </p>
+      <br>
+      <input type="checkbox" id="h1check"/>
+      <label for="h1check">h1</label>
+      <br>
+      <input type="checkbox" id="h2check"/>
+      <label for="h2check">h2</label>
+      <br>
+      <input type="checkbox" id="h3check"/>
+      <label for="h3check">h3</label>
+      <br>
+      <input type="checkbox" id="h4check"/>
+      <label for="h4check">h4</label>
+      <br>
+      <input type="checkbox" id="h5check"/>
+      <label for="h5check">h5</label>
+      <br>
+      <input type="checkbox" id="h6check"/>
+      <label for="h6check">h6</label>
+    </div>
+    <div style = "display: none;" id = "paragraphActivity" class="">
+      <p> TYPE a short one sentence description for your website and PRESS ENTER </p>
+      <input style = "margin-left: -15px;" id = "ip2" type="text" placeholder = "enter a short description" >
+    </div>
+    <div style = "display: none;" id = "fontColorActivity" class="">
+      <label for="colorpicker">Pick a font color for your title:</label>
+      <br>
+      <br>
+      <br>
+      <input id = "ip3" type="color" id="colorpicker" value="#FFFFFF">
+      <br><br><br>
+      <label for="colorpicker">Pick a font color for your paragraph:</label>
+      <br><br><br>
+      <input id = "ip4" type="color" id="colorpicker" value="#FFFFFF">
+    </div>
+    <div style = "display: none;" id = "buttonStylingActivity" class="">
+      <p> Enter some text for your button </p>
+      <input style = "margin-left: -15px;" id = "ip10" type="text" placeholder = "words inside of button">
+      <br><br>
+      <input type="checkbox" id="border"/>
+      <label for="border">Add a border</label>
+      <br><br><br>
+      <label for="colorpicker">Pick color for your border:</label>
+      <br><br>
+      <input id = "ip5" type="color" id="colorpicker" value="#FFFFFF">
+      <br><br>
+      <label for="colorpicker2">Pick color for your button:</label>
+      <br><br>
+      <input id = "ip6" type="color" id="colorpicker2" value="#FFFFFF">
+    </div>
+    <div style = "display: none;" id = "linksActivity" class="">
+      <p> Tab Name </p>
+      <br>
+      <input style = "margin-left: -15px;" id = "link4text" type="text" placeholder = "i.e News">
+      <p> Tab Link </p>
+      <br>
+      <input style = "margin-left: -15px;" id = "link4url" type="text" placeholder = "paste a link here">
+      <br>
+
+    </div>
+
+    <div style = "display: none" id= "backgroundImageActivity">
+      <p> Step 1: Find an image you link on <span style = "color: #AFE24F">Google Images </span> </p>
+      <p> Step 2: Right click the image and select <span style = "color: #AFE24F"> 'Copy Image Address"</span> </p>
+      <p> Step 3: Paste the adress here AND PRESS ENTER : </p>
+      <br>
+      <input style = "margin-left: -15px;" id = "bgurl" type="text" placeholder = "paste image address">
+      <br>
+
+    </div>
+
+
+    <button onclick="submitBgActivity()" id = "button11"> NEXT ACTIVITY </button>
+    </div>
+
+
+  </body>
+</html>
