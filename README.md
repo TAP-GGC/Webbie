@@ -34,8 +34,9 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 ## Similar Projects 
 ## Technology
 * HTML (Hypertext Markup Language)
-<img src = "Media/Technology/HTML.png" width="400" height="200">
-* CSS (Cascading Style Sheet) 
+<img src = "Media/Technology/HTML.png" width="400">
+* CSS (Cascading Style Sheet)
+
 ## Project Setup/Installation 
 ## Short Demo Instruction 
 ## Workshop Instruction 
