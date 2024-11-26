@@ -18,7 +18,7 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 * Dr. Wei Jin 
 * Dr. Xin Xu 
 ## Team Photo
-<img src = "Media/Team Photo/webbieGroupP.png" width="400" height="200">
+<img src = "Media/Team Photo/webbieGroupP.png" width="400">
 
 (From left to right: April Factor, Holly Boaz, Trump Dong Dong) 
 
