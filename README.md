@@ -33,7 +33,7 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 
 ## Similar Projects 
 If you're interested in other projects that are related to webpage development, you can check out [Foe](https://github.com/TAP-GGC/Foe) which teaches the basics of JavaScript!
-[Space Mechanics](https://github.com/TAP-GGC/SpaceMechanic/blob/main/README.md) is another intro-level programming project you may want to check out. 
+[Space Mechanic](https://github.com/TAP-GGC/SpaceMechanic/blob/main/README.md) is another intro-level programming project you may want to check out. 
 ## Technology
 * HTML (Hypertext Markup Language)
 <img src = "Media/Technology/HTML.png" width="400">
