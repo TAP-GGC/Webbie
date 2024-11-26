@@ -25,12 +25,17 @@ This project, Webbie, is about teaching the basics of web development in a fun a
 ## Game Description 
 
 ## Publications 
-1. Holly Boaz, April Factor, Thien Trung Dong Dong. "Webbie", CREATE Symposium, November 2022, Georgia Gwinnett College. 
+1. Holly Boaz, April Factor, Thien Trung Dong Dong. "Webbie", CREATE Symposium, November 11th, 2022, Georgia Gwinnett College. 
 ## Outreach Activities
-1. <b>Explore Your Future Career</b> event, October 15th, 2022, Discovery High School - Project Demo. 
+1. <b>TAP Expo</b>, Georgia Gwinnett College, October 11th, 2022 - Promote IT fields among college students. 
+2. <b>Explore Your Future Career</b> event organized by the Gwinnett County Public Schools, October 15th, 2022, Discovery High School - Project Demo.
+3. <b>CREATE Symposium</b>, Georgia Gwinnett College, November 11th, 2022. 
 
 ## Similar Projects 
 ## Technology
+* HTML (Hypertext Markup Language)
+
+* CSS (Cascading Style Sheet) 
 ## Project Setup/Installation 
 ## Short Demo Instruction 
 ## Workshop Instruction 
