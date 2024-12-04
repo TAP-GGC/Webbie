@@ -50,7 +50,7 @@ If you're interested in other projects that are related to webpage development, 
 * CSS (Cascading Style Sheet) is a style sheet language used for designing visual elements of a webpage or website such as background color, text color, or font size.
 
 <p align="center">
-  <img alt="Scratch Logo" src = "Media/Technology/codepen.png" width="200" height="200"/>
+  <img alt="Scratch Logo" src = "Media/Technology/codepen.png" width="400" height="200"/>
 </p>
 
 * [CodePen](https://codepen.io/) is a online code editor for front-end development that supports HTML, CSS, and JavaScript. 
