@@ -41,9 +41,15 @@ If you're interested in other projects that are related to webpage development, 
   <img alt="Scratch Logo" src = "Media/Technology/HTML.png" width="200" height="200"/>
 </p>
 
-* HTML (Hypertext Markup Language) is the standard markup language for structuring and defining the content of a webpage or a website, which is a collection of webpages. 
+* HTML (Hypertext Markup Language) is the standard markup language for structuring and defining the content of a webpage or a website, which is a collection of webpages.
 
-* CSS (Cascading Style Sheet)
+<p align="center">
+  <img alt="Scratch Logo" src = "Media/Technology/CSS.png" width="200" height="200"/>
+</p>
+
+* CSS (Cascading Style Sheet) is a style sheet language used for designing visual elements of a webpage or website such as background color, text color, or font size.
+
+* [CodePen](https://codepen.io/) is a online code editor for front-end development that supports HTML, CSS, and JavaScript. 
 
 ## Project Setup/Installation 
 ## Short Demo Instruction 
