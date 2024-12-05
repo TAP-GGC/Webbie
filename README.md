@@ -1,12 +1,12 @@
 ## About 
-This project, Webbie, is about teaching the basics of web development in a fun and engaging way. We want to introduce students to HTML and CSS through an interactive platform that shows them step-by-step how to design the structure of a website and how to add customizations such as changing font size or font color, adding buttons, and embedding links or images. 
+This project, Webbie, is about teaching the basics of web development in a fun and engaging way. We want to introduce students to HTML and CSS through an interactive platform that shows them step-by-step how to design the structure of a website and how to add customizations such as changing font size or font color, adding buttons, and embedding links or images. Moreover, Webbie was also developed using HTML and CSS, so it is both an interactive guide and an example that demonstrates what tools like HTML and CSS are capable of! 
 
 ## Description 
 * <b>Difficulty Level</b>: Beginner 
 * <b>Target Audience</b>: 1st grade - College 
 * <b>Duration of Workshop</b>: 1 hour 
 * <b>Needed Materials</b>: Computers, Codepen.io. 
-* <b>Learning outcomes</b>: The primary goals of this project is to introduce the students to the basics of HTML and CSS, and demonstrate how we could use them to design a webpage.
+* <b>Learning outcomes</b>: The primary goals of this project is to introduce front-end development novices to the basics of HTML and CSS, and demonstrate how we could use them to design a webpage.
 * [TAP](https://ggc.edu/academics/school-of-science-and-technology/research-internships-service-learning/technology-ambassador-program) (Technology Ambassadors Program) is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 
 [Commercial Video](https://github.com/user-attachments/assets/f3876054-5480-45ac-bf06-b36a356564ec)
