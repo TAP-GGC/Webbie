@@ -83,7 +83,7 @@ If you're interested in other projects that are related to webpage development, 
 [Click here to watch the instruction on how to host the website locally]()
 
 ## Workshop Instruction 
-[Click here to view the workshop presentation slides]()
+[Click here to view the workshop presentation slides](/Documents/workshop_materials/Webbie%20workshop.pdf)
 
 [Workshop Video]()
 
