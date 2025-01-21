@@ -80,6 +80,8 @@ If you're interested in other projects that are related to webpage development, 
 2. Click on Start coding. Note that you don't need to create an account to try the online editor, unless you would like to save your work. 
 
 ## Short Demo Instruction 
+[Click here to enter go to Webbie](https://tap-ggc.github.io/Webbie/Scene%201/mainPage.html)
+
 [Click here to watch the instruction on how to host the website locally]()
 
 ## Workshop Instruction 
