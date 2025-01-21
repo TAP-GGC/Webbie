@@ -1,5 +1,5 @@
 ## About 
-This project, Webbie, is about teaching the basics of web development in a fun and engaging way. We want to introduce students to HTML and CSS through an interactive platform that shows them step-by-step how to design the structure of a website and how to add customizations such as changing font size or font color, adding buttons, and embedding links or images. Moreover, Webbie was also developed using HTML and CSS, so it is both an interactive guide and an example that demonstrates what tools like HTML and CSS are capable of! 
+This project, [Webbie](https://tap-ggc.github.io/Webbie/Scene%201/mainPage.html), is about teaching the basics of web development in a fun and engaging way. We want to introduce students to HTML and CSS through an interactive platform that shows them step-by-step how to design the structure of a website and how to add customizations such as changing font size or font color, adding buttons, and embedding links or images. Moreover, Webbie was also developed using HTML and CSS, so it is both an interactive guide and an example that demonstrates what tools like HTML and CSS are capable of! 
 
 ## Description 
 * <b>Difficulty Level</b>: Beginner 
@@ -80,8 +80,6 @@ If you're interested in other projects that are related to webpage development, 
 2. Click on Start coding. Note that you don't need to create an account to try the online editor, unless you would like to save your work. 
 
 ## Short Demo Instruction 
-[Click here to go to Webbie](https://tap-ggc.github.io/Webbie/Scene%201/mainPage.html)
-
 [Click here to watch the instruction on how to host the website locally]()
 
 ## Workshop Instruction 
